@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Creare</title>
+  <link rel="stylesheet" type="text/css" href="/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+
+<body>
+  <main>
+
+    <!-- 1ページ目 -->
+    <div id="q_00" class="search_contents">
+      <h1>さあ、今すぐあなた合う留学先を見つけよう</h1>
+      <button type="button" class="btn">海外大学を探す</button>
+      <button type="button" class="btn">語学学校を探す</button>
+      <button type="button" class="btn">ホストファミリーを探す</button>
+    </div>
+
+    <!-- 2ページ目 -->
+    <div id="q_01" style="display:none" class="search_contents">
+      <h1>ホストファミリーを探す</h1>
+      <h2>以下の質問に答えて、理想のホストを見つけよう</h2>
+      <p>質問1:行きたい国を選んでください</p>
+      <div class="cp_ipselect cp_sl01">
+        <select name="国">
+          <option value="america">アメリカ</option>
+          <option value="australia">オーストラリア</option>
+          <option value="canada">カナダ</option>
+          <option value="newzealand">ニュージーランド</option>
+        </select>
+      </div>
+      <div id="q_01" class="next_btn">
+        <button type="button" class="btn">次へ</button>
+      </div>
+    </div>
+
+    <!-- 3ページ目 -->
+    <div id="q_02" style="display: none;" class="search_contents">
+      <h1>ホストファミリーを探す</h1>
+      <h2>以下の質問に答えて、理想のホストを見つけよう</h2>
+      <p>質問2:子供がいる家庭を好みますか?</p>
+      <div id="q_02" class="yesorno">
+        <button type="button" class="btn btn_yesorno">はい</button>
+        <button type="button" class="btn btn_yesorno">いいへ</button>
+      </div>
+    </div>
+
+    <!-- 4ページ目 -->
+    <div id="q_03" style="display: none;" class="search_contents">
+      <h1>ホストファミリーを探す</h1>
+      <h2>以下の質問に答えて、理想のホストを見つけよう</h2>
+      <p>質問3:都市での生活を好みますか?</p>
+      <div id="q_03" class="yesorno">
+        <button type="button" class="btn btn_yesorno">はい</button>
+        <button type="button" class="btn btn_yesorno">いいへ</button>
+      </div>
+    </div>
+
+    <!-- 5ページ目 -->
+    <div id="q_04" style="display: none;" class="search_contents">
+      <h1>ホストファミリーを探す</h1>
+      <h2>以下の質問に答えて、理想のホストを見つけよう</h2>
+      <p>質問4:いつも元気なホストを好みますか?</p>
+      <div id="q_04" class="yesorno">
+        <button type="button" class="btn btn_yesorno end" value="a">はい</button>
+        <button type="button" class="btn btn_yesorno end" value="b">いいへ</button>
+      </div>
+    </div>
+
+    <!-- 6ページ目 -->
+    <div id="q_05" style="display: none;" class="search_contents">
+      <h1>”次へ”を押してあなたに最適なホストを見る</h1>
+      <div id="q_05" class="yesorno">
+        <button type="button" class="btn btn_yesorno">次へ</button>
+      </div>
+    </div>
+
+    <!-- 7ページ目 -->
+    <div id="q_06" style="display: none;" class="search_contents">
+      <h1>あなたに最適なホストは〜〜〜です。</h1>
+      <div id="q_06" class="host">
+        <img class="random" src="" alt="ホストの画像" width="300">
+      </div>
+      <div class="return-btn">
+        <button class="btn" onclick="location.href='index.html'">トップページへ戻る</button>
+      </div>
+    </div>
+  </main>
+
+
+
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="text.js"></script>
+
+
+
+</body>
+
+</html>

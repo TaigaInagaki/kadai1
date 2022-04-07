@@ -1,0 +1,94 @@
+.text-center {
+  text-align: center;
+}
+
+/* q_00 */
+.search_contents {
+  width: 1000px;
+  text-align: center;
+  margin: auto;
+  height: 200px;
+  margin-top: 100px;
+}
+
+.search_contents h1 {
+  margin-bottom: 50px;
+  font-size: 30px;
+}
+
+.btn {
+  line-height: 50px;
+  width: 200px;
+  font-size: 15px;
+  background-color: #cab8d9;
+  color: white;
+  border-color: #cab8d9;
+  border-radius: 20px;
+}
+
+/* q_01 */
+.search_contents h2 {
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+.cp_ipselect {
+  overflow: hidden;
+  width: 150px;
+  margin: 2em auto;
+  text-align: center;
+}
+
+.cp_ipselect select {
+  width: 100%;
+  padding-right: 1em;
+  cursor: pointer;
+  text-indent: 0.01px;
+  text-overflow: ellipsis;
+  border: none;
+  outline: none;
+  background: transparent;
+  background-image: none;
+  box-shadow: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.cp_ipselect select::-ms-expand {
+    display: none;
+}
+
+.cp_ipselect.cp_sl01 {
+  position: relative;
+  border-radius: 2px;
+  border: 2px solid #cab8d9;
+  border-radius: 50px;
+  background: #ffffff;
+}
+
+.cp_ipselect.cp_sl01::before {
+  position: absolute;
+  top: 0.8em;
+  right: 0.8em;
+  width: 0;
+  height: 0;
+  padding: 0;
+  content: '';
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid #cab8d9;
+  pointer-events: none;
+}
+
+.cp_ipselect.cp_sl01 select {
+  padding: 8px 38px 8px 8px;
+  color: black;
+}
+/* q_02 */
+.btn_yesorno {
+  margin-top: 30px;
+}
+
+.return-btn{
+  margin-top: 30px;
+}
